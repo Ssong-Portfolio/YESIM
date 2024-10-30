@@ -34,7 +34,7 @@ public class ImageURL {
     public static String thumbnail(String imgName) {
 
 
-//        return BASE_URL + imgName;
+        return BASE_URL + imgName;
 //        return BASE_URL + "image/" + imgName;
 //        return BASE_URL + UPLOAD_URL + imgName;
     }
