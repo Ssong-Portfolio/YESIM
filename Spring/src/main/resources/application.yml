@@ -30,12 +30,14 @@ spring :
       hibernate:
         format_sql: true
     defer-datasource-initialization: true
-    profiles:
-      include: aws
+
+  profiles:
+    include: aws
 
   sql:
     init:
       mode : always
+
 
 image-base-url: https://song0515-portfolio.s3.ap-northeast-2.amazonaws.com/YESIM/image/
 

@@ -19,12 +19,12 @@ public class ImageURL {
         UPLOAD_URL = url.replace("file:///", "");;
     }
 
-    @Value("${file.upload-dir}")
-    private String uploadDir;
+//    @Value("${file.upload-dir}")
+//    private String uploadDir;
 
-    public String getFilePath(String fileName) {
-        return System.getProperty("user.dir") + "/" + uploadDir + fileName;
-    }
+//    public String getFilePath(String fileName) {
+//        return System.getProperty("user.dir") + "/" + uploadDir + fileName;
+//    }
 
     @Value("${image-base-url}")
     public void setBaseUrl(String url){
