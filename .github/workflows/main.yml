@@ -43,7 +43,7 @@ jobs:
           EC2_HOST: ${{ secrets.EC2_HOST }}
           EC2_USER: ec2-user
         run: |
-          ssh -o StrictHostKeyChecking=no -i private_key.pem $EC2_USER@$EC2_HOST "nohup java -jar /home/ec2-user/yesim_spring-0.0.1-SNAPSHOT > /dev/null 2>&1 &"
+          ssh -o StrictHostKeyChecking=no -i private_key.pem $EC2_USER@$EC2_HOST "nohup java -jar /home/ec2-user/yesim_spring-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 &"
       - name: Clean up SSH key
         if: always()
         run: rm -f private_key.pem
