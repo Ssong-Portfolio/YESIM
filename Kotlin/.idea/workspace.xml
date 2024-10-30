@@ -102,8 +102,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78f48f14-527f-4268-8574-49ac53a68c97" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kotiln_tpj_yesim/Retrofit/RetrofitClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kotiln_tpj_yesim/Retrofit/RetrofitClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/src/main/java/com/example/yesim_spring/util/ImageURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/src/main/java/com/example/yesim_spring/util/ImageURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Portfolio/YESIM/Kotlin",
+    "last_opened_file_path": "C:/Portfolio/Funding/Android",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
