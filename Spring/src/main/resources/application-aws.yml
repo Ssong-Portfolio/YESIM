@@ -1,0 +1,9 @@
+cloud:
+  aws:
+    s3:
+      bucket: song0515-portfolio
+      stack.auto: false
+      region.static: ap-northeast-2
+      credentials:
+        accessKey: AKIA34AMCXEYM26KRQR4
+        secretKey: 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
